@@ -29,7 +29,7 @@ body {
     color:rgb(220, 244, 252);
 }
 
-#bio_box {
+#bio_circle {
     /* background-image:url("assets/images/crumpled_paper.png");  */
     margin-left: 25%;
     border: 1px solid rgb(107, 169, 192);
@@ -90,16 +90,28 @@ margin-bottom:5%;
 }
 
 .btn {
-    padding-top:30%;
-    margin-left:14%;
+    padding-top:37%;
+    margin-left:11%;
     font-family: 'Cookie', cursive;
-    font-size:140px;
-    color:yellow;
+    font-size:45px;
+    color:white;
 }
 
 .fixed-bottom {
     padding-bottom: 10%;
 }
-h2 {
-    color:pink;
+.links {
+   margin-top: 44%;
+  margin-left: 17%;
+}
+
+#project1 {
+    
+}
+
+#train_scheduler {
+
+}
+#giphy {
+   
 }
