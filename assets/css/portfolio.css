@@ -71,11 +71,18 @@ hr {
     padding: 0; 
 }
 #photo {
-    width: 19%;
-    height: 19%;
-   /* margin-bottom:15%; */
-   padding-bottom:15%;
+    width: 15%;
+    height: 15%;
+
    margin-left:5%;
-    border: 2px solid white;
+    border: 5px solid rgb(73, 139, 163);
     
+}
+
+.btn {
+    padding-top:30%;
+    margin-left:14%;
+    font-family: 'Cookie', cursive;
+    font-size:140px;
+    color:yellow;
 }
