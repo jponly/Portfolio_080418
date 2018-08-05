@@ -108,6 +108,9 @@ hr {
     padding-left: 20%;
 
 }
+li {
+    margin-left:8%;
+}
 
 #skill_list {
     margin-left: 105%;
