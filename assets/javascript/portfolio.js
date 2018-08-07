@@ -1,5 +1,5 @@
 $(document).ready(function () {
-       
+
         $("#proj_button").hide();
         $("#email").hide();
         $("#text_intro").hide();
@@ -43,13 +43,13 @@ $(document).ready(function () {
         $("#email").hide();
         $("#main_button").show();
         
-       
+
 
     });
 
 
     
-
+   
         
 
 

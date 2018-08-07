@@ -5,18 +5,15 @@
 body {
     background-color: rgb(107, 169, 192); 
     background-repeat: repeat;
-    /* url("") */
 }
 .container {
     width: auto;
   max-width: 680px;
-  /* padding: 0 15px; */
 }
 
 #name {
     font-size: 60px;
     margin-left:2%;
-    /* margin-top: 1%; */
     color:rgb(243, 208, 52);
     float:left;
     
@@ -27,7 +24,6 @@ body {
     color:rgb(220, 244, 252);
 }
 #bio_circle {
-    /* background-image:url("assets/images/crumpled_paper.png");  */
     margin-left: 25%;
     border: 1px solid rgb(107, 169, 192);
     padding: 10px;
@@ -35,13 +31,9 @@ body {
     height:630px;
     width: 540px;
     background-color: rgb(216, 242, 250);
-    border-radius: 50%;
-
-    
-  
+    border-radius: 50%; 
 }
 #gooey_footer {
-
         position: absolute;
         bottom: 0;
         width: 100%;
@@ -108,8 +100,39 @@ hr {
     padding-left: 20%;
 
 }
+li {
+    margin-left:8%;
+}
 
 #skill_list {
     margin-left: 105%;
     margin-top: -20.5%;
 }
+#text_intro {
+    color: rgb(39, 152, 194);
+    line-height: 45%;
+}
+#marvel {
+    padding-top: 1%;
+    margin-bottom: 60%;
+    background: red;
+    border: 1px solid white;
+}
+#ts {
+    padding-top: 1%;
+    margin-bottom: 60%;
+    margin-left: .5%;
+    background: yellow;
+    border: 1px solid white;
+}
+#giphy {
+    
+}
+.links {
+
+}
+.back {
+    font-family: 'Cookie', cursive;
+    color: black;
+}
+
