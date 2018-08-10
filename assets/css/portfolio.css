@@ -37,7 +37,7 @@ body {
         position: absolute;
         bottom: 0;
         width: 100%;
-        height: 250px; /* Set the fixed height of the footer here */
+        height: 70px; /* Set the fixed height of the footer here */
         line-height: 60px; /* Vertically center the text there */
 
 }
@@ -66,20 +66,20 @@ hr {
     padding: 0; 
 }
 #photo {
-    width: 16%; /* this scales the image down */
+    width: 12%; /* this scales the image down */
     margin-bottom:7%; /* this makes it go above */
    margin-left:3%; /* this is easy */
-     border: 5px solid white; adds white
+     border: 5px solid white; 
  
 }
 
-.btn {
+/* .btn {
     padding-top:37%;
     margin-left:11%;
     font-family: 'Cookie', cursive;
     font-size:45px;
     color:white;
-}
+} */
 
 .fixed-bottom {
     padding-bottom: 10%;
@@ -112,19 +112,19 @@ li {
     color: rgb(39, 152, 194);
     line-height: 45%;
 }
-#marvel {
+/* #marvel {
     padding-top: 1%;
     margin-bottom: 60%;
     background: red;
     border: 1px solid white;
-}
-#ts {
+} */
+/* #ts {
     padding-top: 1%;
     margin-bottom: 60%;
     margin-left: .5%;
     background: yellow;
     border: 1px solid white;
-}
+} */
 #giphy {
     
 }
@@ -132,7 +132,11 @@ li {
 
 }
 .back {
+    margin-left: 70%;
     font-family: 'Cookie', cursive;
     color: black;
 }
-
+ 
+#e_mail {
+    padding-top: 1%;
+}

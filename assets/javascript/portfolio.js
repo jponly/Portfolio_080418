@@ -1,51 +1,61 @@
 $(document).ready(function () {
 
-        $("#proj_button").hide();
-        $("#email").hide();
-        $("#text_intro").hide();
+        $(".port_card").hide();
+        $(".contact-form").hide();
+        $(".bio").show();
+        // $("#text_intro").hide();
 
     // Main Button on click functions //
-    $("#port").click(function () {
+    $("#about").click(function () {
         event.preventDefault();
-        $("#email").hide();
-        $("#main_button").hide();
-        $("#text_intro").hide();
-        $("#proj_button").show();
+        $(".bio").show();
+        $(".port_card").hide();
+        $(".contact-form").hide();
+        // $("#email").hide();
+        // $("#main_button").hide();
+        // $("#text_intro").hide();
+        // $("#proj_button").show();
        
 
     });
 
-    $("#about_me").click(function () {
+    $("#proj_card").click(function () {
         event.preventDefault();
-        $("#email").hide();
-        $("#proj_button").hide();
-        $("#main_button").hide();
-        $("#text_intro").show();
+        $(".bio").hide();
+        $(".contact-form").hide();
+        $(".port_card").show();
+        // $("#email").hide();
+        // $("#proj_button").hide();
+        // $("#main_button").hide();
+        // $("#text_intro").show();
        
 
     });
 
     $("#contact").click(function () {
         event.preventDefault();
-        $("#proj_button").hide();
-        $("#main_button").hide();
-        $("#text_intro").hide();
-        $("#email").show();
+        $(".bio").hide();
+        $(".port_card").hide();
+        $(".contact-form").show();
+        // $("#proj_button").hide();
+        // $("#main_button").hide();
+        // $("#text_intro").hide();
+        // $("#email").show();
         
        
 
     });
 
-    $(".back").click(function () {
-        event.preventDefault();
-        $("#proj_button").hide();
-        $("#text_intro").hide();
-        $("#email").hide();
-        $("#main_button").show();
+    // $(".back").click(function () {
+    //     event.preventDefault();
+    //     $("#proj_button").hide();
+    //     $("#text_intro").hide();
+    //     $("#email").hide();
+    //     $("#main_button").show();
         
 
 
-    });
+    // });
 
 
     

@@ -6,92 +6,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/portfolio.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="meyer.css" />
     <script src="assets/javascript/portfolio.js"></script>
 </head>
 
 <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <h6 id="name" class="text-center">JEROME PANGELINAN</h6>
+                <h6 id="position_title" class="text-center">Web Developer</h6> 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a id="about" class="nav-link" href="index.html">about <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li id="proj_card" class="nav-item">
+                            <a class="nav-link" href="#">portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li id="contact" class="nav-item">
+                      <a class="nav-link" href="#">contact</a>
+                    </li> 
+                  </ul> 
+                </div>
+              </nav>
+              <br>
+              <br>
+             
     <div class="container-fluid">
-
-        <div class="row">
-            <div id="intro" class="col-12">
-                <h4 id="name" class="text-center">JEROME PANGELINAN</h4>
-                <h6 id="position_title" class="text-center">Web Developer</h6>
-            </div>
-        </div>
-        <div class="row">
-            <div id="bio_circle" class="col-6">
-                <div id="text_intro">
-                    <p id="frontend">Front End client side code for build and functionality. </p>
-                    <p id="backend">Back End server side code to request data for website print</p>
-                    <p>or stricly within server database.</p>
-                    <button class="back" type="button" class="btn btn-link">Back</button>
-                    <!-- <button class="back">Back</button> -->
-                </div>
-                <div id="email"class="form-group row">
-                    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="">
-                      <button class="back"  type="button" class="btn btn-link">Back</button>
-                      <!-- <button class="back">Back</button> -->
-                    </div>
-                </div>
-                <div id="proj_button">
-                    <input id="marvel" class="btn btn-primary links" type="button" onclick="location.href = 'https://jponly.github.io/Project1';" value="Marvel">
-                    <input id="ts" class="btn btn-primary links" type="button" onclick="location.href = 'https://jponly.github.io/Train-Scheduler/';" value="Train Scheduler">
-                    <button class="back" type="button" class="btn btn-link">Back</button>
-                    <!-- <button class="back">Back</button>  -->
-                </div>
-                  <div id="main_button">
-                    <button id="about_me" type="button" class="btn btn-link">About</button>
-                    <button id="port" type="button" class="btn btn-link">Portfolio</button>
-                    <button id="contact" type="button" class="btn btn-link">Contact</button>
-                  </div> 
+         <div class="row">
+             <div class="col-9 bio">
+                    <h5 id="about_me" class="text_modif">Aesthetic: Intricate, effective and extensive client side & server side code and database usage. Fundamental languages implemented when specific frameworks are present in every project. Version updates are always acknowledged,researched and utilized with purpose.</h5>
+                    <h5 class="text_modif">
+                        Code Execution Goal: Write the most effective and efficient code most needed to run at the highest capability. Constant research and practice of better techniques and methods with a very strong understanding of the concepts required in Front End/Back End syntax. Tendency to stay up to date with latest versions to be intergrated.</h5>
              </div>
-        </div>
-        <br>
-        <br>
-        <hr>
-        <div class="row">
-            <div class="col-8">
-                <h5 id="about_me" class="text_modif">Aesthetic: Intricate, effective and extensive client side & server side code and database usage. Fundamental languages implemented when specific frameworks are present in every project. Version updates are always acknowledged,researched and utilized with purpose.</h5>
-                <h5 class="text_modif">
-                    Code Execution Goal: Write the most effective and efficient code most needed to run at the highest capability. Constant research and practice of better techniques and methods with a very strong understanding of the concepts required in Front End/Back End syntax. Tendency to stay up to date with latest versions to be intergrated.</h5>
-                    
-            <div id="skill_list" class="col-4">
-                <h5 class="text_modif">Programming Languages I have coded</h5>
-                <ul class="text_modif">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>C#</li>
-                    <li>JAVASCRIPT</li>
-                    <li>JQUERY</li>
-                    
-                </ul>
-                <h5 class="text_modif">Frameworks I have coded with or am familiar with</h5>
-                <ul class="text_modif">
-                    <li>JQUERY</li>
-                    <li>BOOTSTRAP</li>
-                    <li>MATERIALIZE</li>
-                    <li>NODEJS</li>
-                </ul>
-            </div>
-        </div>
-        
-            <div class="col-10">
-                
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
+             <div class="col-3 bio">
+                    <h5 class="text_modif">Programming Languages</h5>
+                    <ul class="text_modif">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>C#</li>
+                        <li>JAVASCRIPT</li>
+                        <li>JQUERY</li>
+                        
+                    </ul>
+                    <h5 class="text_modif">Frameworks</h5>
+                    <ul class="text_modif">
+                        <li>JQUERY</li>
+                        <li>BOOTSTRAP</li>
+                        <li>MATERIALIZE</li>
+                        <li>NODEJS</li>
+                    </ul>
 
-            </div>
+             </div> 
+              <div  class="col-12">
+                 <div class="port_card">
+                        <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/marvel_front" alt="Marvel Fanpage">
+                                <div class="card-body" >
+                                  <p class="card-text">HTML Structure with CSS styling utilizing Bootstrap and Materialize</p>
+                                  <a type="button" class="btn btn-link" href="https://jponly.github.io/Project1/" target="_blank">Link</a>
+                                </div>
+                              </div>
+                              <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="assets/images/marvel_UI/100px180/?text=Image cap" alt="Train Schedule">
+                                    <div class="card-body">
+                                      <p class="card-text">Utilizing moment.js within Javascript code to determine timing of train arrival</p>
+                                      <a type="button" class="btn btn-link"  href="https://jponly.github.io/Train-Scheduler/" target="_blank">Link</a>
+                                    </div>
+                                  </div>
+                                  <div class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Giphy">
+                                        <div class="card-body">
+                                          <p class="card-text">Request data from giphy API to dsiplay gif's of selected Simpsons characters</p>
+                                         <a type="button" class="btn btn-link" href="https://jponly.github.io/GifTastic/" target="_blank">Link</a>
+                                        </div>
+                                   </div>
+                        </div>
+             </div> 
+             <div class="col-4 contact-form">
+                    <form>
+                            <div class="form-group">
+                              <label for="exampleFormControlInput1">Email address</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlTextarea1">Example textarea</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                          
+             </div>
+             <div class="col-8">
+
+             </div>
         </div>
         <br>
                  <br>
@@ -113,6 +129,8 @@
             <div class="col-12">
                  <nav id="gooey_footer" class="navbar fixed-bottom navbar-light bg-light"> 
                      <img id="photo" src="assets/images/medotcom.jpg">
+                     <a class="nav-link" href="https://github.com/jponly" target="_blank">github <span class="sr-only">(current)</span></a>
+                     <a class="nav-link" href="https://www.linkedin.com/in/jerome-pangelinan-09162031/" target="_blank">linkedin <span class="sr-only">(current)</span></a>
                  </nav> 
             </div>
         </div>
@@ -124,8 +142,101 @@
 
 </html>
 
+<!-- line 174 -->
 
 
-<!-- <button class="links">Marvel</button>
-<button class="links">Train Scheduler</button>
-<button class="links">Giphy</button>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </li> -->
+
+<!-- NVABAR HEADER -->
+<!-- <div id="bio_circle" class="col-6">
+               
+</div> -->
+<!-- <h4 id="name" class="text-center">JEROME PANGELINAN</h4>
+<h6 id="position_title" class="text-center">Web Developer</h6> -->
+
+
+<!-- CONTENT -->
+<!-- <div id="text_intro">
+    <p id="frontend">Front End client side code for build and functionality. </p>
+    <p id="backend">Back End server side code to request data for website print</p>
+    <p>or stricly within server database.</p>
+    <button id="about_back" class="back" type="button" class="btn btn-link">Back</button>
+ </div>
+<div id="email"class="form-group row">
+        <button id="e_mail" type="button" class="btn btn-link" a href="mailto:jpangeli514@gmail.com" target="_blank">jpangeli514@gmail.com</button>
+  <div class="col-sm-10">
+      <button id="contact_back" class="back"  type="button" class="btn btn-link">Back</button>
+   </div>
+</div>
+<div id="proj_button">
+    <button id="proj_back"class="back" type="button" class="btn btn-link">Back</button>
+    <input id="marvel" class="btn btn-primary links" type="button" onclick="location.href = 'https://jponly.github.io/Project1';" target="_blank" value="Marvel">
+    <input id="ts" class="btn btn-primary links" type="button" onclick="location.href = 'https://jponly.github.io/Train-Scheduler/';" target="_blank" value="Train Scheduler">
+</div>
+  <div id="main_button">
+    <button id="about_me" type="button" class="btn btn-link">About</button>
+    <button id="port" type="button" class="btn btn-link">Portfolio</button>
+    <button id="contact" type="button" class="btn btn-link">Contact</button>
+  </div>  -->
+
+
+
+
+  <!-- CONTENT TO USE -->
+  <!-- <div class="col-8">
+        <h5 id="about_me" class="text_modif">Aesthetic: Intricate, effective and extensive client side & server side code and database usage. Fundamental languages implemented when specific frameworks are present in every project. Version updates are always acknowledged,researched and utilized with purpose.</h5>
+        <h5 class="text_modif">
+            Code Execution Goal: Write the most effective and efficient code most needed to run at the highest capability. Constant research and practice of better techniques and methods with a very strong understanding of the concepts required in Front End/Back End syntax. Tendency to stay up to date with latest versions to be intergrated.</h5>
+            
+    <div id="skill_list" class="col-4">
+        <h5 class="text_modif">Programming Languages</h5>
+        <ul class="text_modif">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C#</li>
+            <li>JAVASCRIPT</li>
+            <li>JQUERY</li>
+            
+        </ul>
+        <h5 class="text_modif">Frameworks</h5>
+        <ul class="text_modif">
+            <li>JQUERY</li>
+            <li>BOOTSTRAP</li>
+            <li>MATERIALIZE</li>
+            <li>NODEJS</li>
+        </ul>
+    </div> -->
+
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"> -->
