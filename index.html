@@ -17,7 +17,7 @@
 </head>
 
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav id="top_choices" class="navbar navbar-expand-lg navbar-light bg-light">
                 <h6 id="name" class="text-center">JEROME PANGELINAN</h6>
                 <h6 id="position_title" class="text-center">Web Developer</h6> 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,13 +42,14 @@
              
     <div class="container-fluid">
          <div class="row">
+           <div id="bio_holder">
              <div class="col-9 bio">
                     <h5 id="about_me" class="text_modif">Aesthetic: Intricate, effective and extensive client side & server side code and database usage. Fundamental languages implemented when specific frameworks are present in every project. Version updates are always acknowledged,researched and utilized with purpose.</h5>
-                    <h5 class="text_modif">
+                    <h5 id="para2" class="text_modif">
                         Code Execution Goal: Write the most effective and efficient code most needed to run at the highest capability. Constant research and practice of better techniques and methods with a very strong understanding of the concepts required in Front End/Back End syntax. Tendency to stay up to date with latest versions to be intergrated.</h5>
              </div>
-             <div class="col-3 bio">
-                    <h5 class="text_modif">Programming Languages</h5>
+               <div id="lang_list" class="col-3 bio">
+                    <h6 class="text_modif">Programming Languages</h6>
                     <ul class="text_modif">
                         <li>HTML</li>
                         <li>CSS</li>
@@ -57,7 +58,7 @@
                         <li>JQUERY</li>
                         
                     </ul>
-                    <h5 class="text_modif">Frameworks</h5>
+                    <h6 class="text_modif">Frameworks</h6>
                     <ul class="text_modif">
                         <li>JQUERY</li>
                         <li>BOOTSTRAP</li>
@@ -65,24 +66,26 @@
                         <li>NODEJS</li>
                     </ul>
 
-             </div> 
+               </div> 
+              </div>
               <div  class="col-12">
-                 <div class="port_card">
-                        <div class="card" style="width: 18rem;">
+              
+                    <div class="port_card">
+                        <div id="marvel_proj" class="card" style="width: 18rem;">
                                 <img class="card-img-top" src="assets/images/marvel_front" alt="Marvel Fanpage">
                                 <div class="card-body" >
                                   <p class="card-text">HTML Structure with CSS styling utilizing Bootstrap and Materialize</p>
                                   <a type="button" class="btn btn-link" href="https://jponly.github.io/Project1/" target="_blank">Link</a>
                                 </div>
                               </div>
-                              <div class="card" style="width: 18rem;">
+                              <div id="ts_proj" class="card" style="width: 18rem;">
                                     <img class="card-img-top" src="assets/images/marvel_UI/100px180/?text=Image cap" alt="Train Schedule">
                                     <div class="card-body">
                                       <p class="card-text">Utilizing moment.js within Javascript code to determine timing of train arrival</p>
                                       <a type="button" class="btn btn-link"  href="https://jponly.github.io/Train-Scheduler/" target="_blank">Link</a>
                                     </div>
                                   </div>
-                                  <div class="card" style="width: 18rem;">
+                                  <div id="giphy_proj" class="card" style="width: 18rem;">
                                         <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Giphy">
                                         <div class="card-body">
                                           <p class="card-text">Request data from giphy API to dsiplay gif's of selected Simpsons characters</p>
@@ -90,25 +93,14 @@
                                         </div>
                                    </div>
                         </div>
+              
+                
              </div> 
               <div class="col-4 contact-form">
-                <P> Please click the link to get in contact via email</P>
+                <P class="text_modif"> Please click the link to get in contact via email</P>
                   <form method="post" action="mailto:jpangeli514@gmail.com" >
-                      <input type="submit" value="Send Email" /> 
+                      <input id="send_email" type="submit" value="Send Email" /> 
                       </form>
-                  <!-- <a type="button" class="btn btn-primary btn-lg" action="mailto:jpangeli514@gmail.com" target="_blank">jpangeli514@gmail.com</a> -->
-                    <!-- <form>
-                            <div class="form-group">
-                              <label for="exampleFormControlInput1">Email address</label>
-                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="jpangeli514@gmail.com">
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleFormControlTextarea1">Example textarea</label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                    </form> -->
-                          
              </div> 
              
             </div>
@@ -136,8 +128,8 @@
             <div class="col-12">
                  <nav id="gooey_footer" class="navbar fixed-bottom navbar-light bg-light"> 
                      <img id="photo" src="assets/images/medotcom.jpg">
-                     <a class="nav-link" href="https://github.com/jponly" target="_blank">github <span class="sr-only">(current)</span></a>
-                     <a class="nav-link" href="https://www.linkedin.com/in/jerome-pangelinan-09162031/" target="_blank">linkedin <span class="sr-only">(current)</span></a>
+                     <a id="github" class="nav-link" href="https://github.com/jponly" target="_blank">github <span class="sr-only">(current)</span></a>
+                     <a id="linkedin" class="nav-link" href="https://www.linkedin.com/in/jerome-pangelinan-09162031/" target="_blank">linkedin <span class="sr-only">(current)</span></a>
                  </nav> 
             </div>
         </div>
@@ -148,10 +140,50 @@
 
 </html>
 
+ <!-- <a type="button" class="btn btn-primary btn-lg" action="mailto:jpangeli514@gmail.com" target="_blank">jpangeli514@gmail.com</a> -->
+                    <!-- <form>
+                            <div class="form-group">
+                              <label for="exampleFormControlInput1">Email address</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="jpangeli514@gmail.com">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleFormControlTextarea1">Example textarea</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                    </form> -->
+
+
+
+<!-- --------- -->
 
 
 
 
+
+                    <!-- <div class="port_card">
+                        <div id="marvel_proj" class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/marvel_front" alt="Marvel Fanpage">
+                                <div class="card-body" >
+                                  <p class="card-text">HTML Structure with CSS styling utilizing Bootstrap and Materialize</p>
+                                  <a type="button" class="btn btn-link" href="https://jponly.github.io/Project1/" target="_blank">Link</a>
+                                </div>
+                              </div>
+                              <div id="ts_proj" class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="assets/images/marvel_UI/100px180/?text=Image cap" alt="Train Schedule">
+                                    <div class="card-body">
+                                      <p class="card-text">Utilizing moment.js within Javascript code to determine timing of train arrival</p>
+                                      <a type="button" class="btn btn-link"  href="https://jponly.github.io/Train-Scheduler/" target="_blank">Link</a>
+                                    </div>
+                                  </div>
+                                  <div id="giphy_proj" class="card" style="width: 18rem;">
+                                        <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Giphy">
+                                        <div class="card-body">
+                                          <p class="card-text">Request data from giphy API to dsiplay gif's of selected Simpsons characters</p>
+                                         <a type="button" class="btn btn-link" href="https://jponly.github.io/GifTastic/" target="_blank">Link</a>
+                                        </div>
+                                   </div>
+                        </div> -->
 
 
 
